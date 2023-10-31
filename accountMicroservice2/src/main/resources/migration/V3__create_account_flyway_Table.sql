@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `account_flyway2` (
+   account_id INT AUTO_INCREMENT PRIMARY KEY,
+   account_number VARCHAR(255) NOT NULL,
+   account_type VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
